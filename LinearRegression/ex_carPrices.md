@@ -1,6 +1,6 @@
 # first model
 
-<img src="https://github.com/kmu973/BigQueryML/assets/70645899/98e25b41-9849-44f9-b8d6-0f894896fde2" width="500">
+<img src="https://github.com/kmu973/BigQueryML/assets/70645899/98e25b41-9849-44f9-b8d6-0f894896fde2" width="300">
 
 ```
 CREATE OR REPLACE MODEL
@@ -16,7 +16,7 @@ FROM `regression.car_price_data`
 
 # second model
 
-<img src="https://github.com/kmu973/BigQueryML/assets/70645899/a70b5bec-cc92-421b-8100-da784de3a1fc" width="500">
+<img src="https://github.com/kmu973/BigQueryML/assets/70645899/a70b5bec-cc92-421b-8100-da784de3a1fc" width="300">
 
 ```SQL
 CREATE MODEL IF NOT EXISTS
