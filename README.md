@@ -10,6 +10,9 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/geography_function
 
 date queries
 https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions
+
+hyperparameter tuning
+https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-hyperparameter-tuning
 ```
 
 ## Linear Regression
