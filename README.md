@@ -6,6 +6,8 @@
 
 ## Linear Regression
 
+[code](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-glm)
+
 ```SQL
 {CREATE MODEL | CREATE MODEL IF NOT EXISTS | CREATE OR REPLACE MODEL}
 model_name
@@ -30,5 +32,43 @@ model_name
     CALCULATE_P_VALUES = { TRUE | FALSE },
     FIT_INTERCEPT = { TRUE | FALSE },
     CATEGORY_ENCODING_METHOD = { 'ONE_HOT_ENCODING`, 'DUMMY_ENCODING' }
+)];
+```
+## Logistic Regression
+
+## K-means clusturing
+
+```
+limitations
+- applicable to only numerical attributes
+- not perform well when clusters are varying sizes and density
+- needs clipping of the outliers
+
+applications
+- document classification
+- call detail analysis
+- identifying fake news
+- marketing and sales
+- sound industry
+- image segmentation
+- image compression
+- identifying crime-prone areas
+- insurance fraud detection
+```
+[code](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-kmeans)
+
+```SQL
+{CREATE MODEL | CREATE MODEL IF NOT EXISTS | CREATE OR REPLACE MODEL}
+model_name
+[OPTIONS(MODEL_TYPE = { 'KMEANS' },
+    NUM_CLUSTERS = int64_value,
+    KMEANS_INIT_METHOD = { 'RANDOM' | 'KMEANS++' | 'CUSTOM' },
+    KMEANS_INIT_COL = string_value,
+    DISTANCE_TYPE = { 'EUCLIDEAN' | 'COSINE' },
+    STANDARDIZE_FEATURES = { TRUE | FALSE },
+    MAX_ITERATIONS = int64_value,
+    EARLY_STOP = { TRUE | FALSE },
+    MIN_REL_PROGRESS = float64_value,
+    WARM_START = { TRUE | FALSE }
 )];
 ```
