@@ -43,17 +43,6 @@ limitations
 - applicable to only numerical attributes
 - not perform well when clusters are varying sizes and density
 - needs clipping of the outliers
-
-applications
-- document classification
-- call detail analysis
-- identifying fake news
-- marketing and sales
-- sound industry
-- image segmentation
-- image compression
-- identifying crime-prone areas
-- insurance fraud detection
 ```
 [code](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-kmeans)
 
