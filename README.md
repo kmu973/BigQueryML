@@ -43,6 +43,9 @@ limitations
 - applicable to only numerical attributes
 - not perform well when clusters are varying sizes and density
 - needs clipping of the outliers
+
+notes
+- anormally detection
 ```
 [code](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-kmeans)
 
