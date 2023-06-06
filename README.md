@@ -124,5 +124,41 @@ tips
 )];
 ```
 
+## DNN
+
+```
+Sigmoid function
+- vanishing gradient problem
+RELU function
+- less vulnerable vanishing pradient problem
+```
+
+```SQL
+{CREATE MODEL | CREATE MODEL IF NOT EXISTS | CREATE OR REPLACE MODEL} model_name
+[OPTIONS(MODEL_TYPE = { 'DNN_CLASSIFIER' | 'DNN_REGRESSOR' },
+         ACTIVATION_FN = { 'RELU' | 'RELU6' | 'CRELU' | 'ELU' | 'SELU' | 'SIGMOID' | 'TANH' },
+         AUTO_CLASS_WEIGHTS = { TRUE | FALSE },
+         BATCH_SIZE = int64_value,
+         CLASS_WEIGHTS = struct_array,
+         DROPOUT = float64_value,
+         EARLY_STOP = { TRUE | FALSE },
+         HIDDEN_UNITS = int_array,
+         L1_REG = float64_value,
+         L2_REG = float64_value,
+         LEARN_RATE = float64_value,
+         INPUT_LABEL_COLS = string_array,
+         MAX_ITERATIONS = int64_value,
+         MIN_REL_PROGRESS = float64_value,
+         OPTIMIZER = { 'ADAGRAD' | 'ADAM' | 'FTRL' | 'RMSPROP' | 'SGD' },
+         WARM_START = { TRUE | FALSE },
+         DATA_SPLIT_METHOD = { 'AUTO_SPLIT' | 'RANDOM' | 'CUSTOM' | 'SEQ' | 'NO_SPLIT' },
+         DATA_SPLIT_EVAL_FRACTION = float64_value,
+         DATA_SPLIT_COL = string_value,
+         ENABLE_GLOBAL_EXPLAIN = { TRUE | FALSE },
+         INTEGRATED_GRADIENTS_NUM_STEPS = int64_value,
+         TF_VERSION = { '1.15' | '2.8.0' }
+)];
+```
+
 
 
