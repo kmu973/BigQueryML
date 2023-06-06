@@ -160,5 +160,23 @@ RELU function
 )];
 ```
 
+## PCA
+
+```
+concept
+- lower the demiesion to avoid overfitting
+```
+
+```SQL
+{CREATE MODEL | CREATE MODEL IF NOT EXISTS | CREATE OR REPLACE MODEL}
+model_name
+[OPTIONS(MODEL_TYPE = { 'PCA' },
+    NUM_PRINCIPAL_COMPONENTS = int64_value,
+    PCA_EXPLAINED_VARIANCE_RATIO = float64_value,
+    SCALE_FEATURES = { TRUE | FALSE }
+    PCA_SOLVER = { 'FULL' | 'RANDOMIZED' | 'AUTO' },
+)];
+```
+
 
 
