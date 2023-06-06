@@ -13,6 +13,9 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions
 
 hyperparameter tuning
 https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-hyperparameter-tuning
+
+model export
+https://cloud.google.com/bigquery/docs/exporting-models#export_model_formats_and_samples
 ```
 
 ## Linear Regression
