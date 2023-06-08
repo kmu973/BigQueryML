@@ -27,4 +27,4 @@ SELECT *
 FROM `bq-ml-332311.assignments.iris`
 ```
 
-![image](https://github.com/kmu973/BigQueryML/assets/70645899/4a3a7e1b-3550-4de5-adfe-3b8e708ee100)
+![image](https://github.com/kmu973/BigQueryML/assets/70645899/fd2efdb6-960a-44f1-8a8e-533049b5f4ea)
