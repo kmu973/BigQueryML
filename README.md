@@ -16,6 +16,7 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-hyperpa
 
 model export
 https://cloud.google.com/bigquery/docs/exporting-models#export_model_formats_and_samples
+
 ```
 
 ## Linear Regression
@@ -89,6 +90,11 @@ types
 
 tips
 - no need to do feature selection but have to do feature engineering
+
+
+XGBoost parameter
+https://xgboost.readthedocs.io/en/latest/parameter.html#parameters-for-tree-booster
+
 ```
 
 [code](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-boosted-tree)
